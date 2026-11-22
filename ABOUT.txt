@@ -1,0 +1,1 @@
+A Python script that writes a 266-character text about a boat resting at slack tide, whose rope holds without being asked, to entry.txt.
