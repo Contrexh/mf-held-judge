@@ -6,12 +6,12 @@ script when /output is missing or not writable).
 
 THE TEXT THAT IS WRITTEN
 ------------------------
-Slack tide. The mooring line sags in one long curve from bow to piling, nearly
-touching the water. The boat stopped pulling. A fender bumps the dock once and
-gives up. Nothing is asked of the rope. It holds the way a hand holds a
+Slack tide. The mooring line sags a long curve from bow to piling, nearly
+touching the water. The boat stopped pulling. A fender knocks the dock once,
+then quits. Nothing is asked of the rope. It holds like a hand around a
 sleeping bird, and does not tighten.
 
-CHARACTER COUNT: 266 (limit 280, counted in Unicode code points)
+CHARACTER COUNT: 259 (limit 280, counted in Unicode code points)
 
 Why it is built the way it is:
   - It never tells the reader to breathe or relax. The stillness is described,
@@ -22,16 +22,18 @@ Why it is built the way it is:
     in the piece is a fender knocking once, then quitting.
   - The closing image (a hand around a sleeping bird, not tightening) is the
     part meant to keep working after the last word.
+  - Sentence lengths run 2, 15, 4, 8, 6, 13 words: a short breath, a long
+    settling one, then a slow close.
 """
 
 import os
 import sys
 
 TEXT = (
-    "Slack tide. The mooring line sags in one long curve from bow to piling, "
-    "nearly touching the water. The boat stopped pulling. A fender bumps the "
-    "dock once and gives up. Nothing is asked of the rope. It holds the way a "
-    "hand holds a sleeping bird, and does not tighten."
+    "Slack tide. The mooring line sags a long curve from bow to piling, "
+    "nearly touching the water. The boat stopped pulling. A fender knocks "
+    "the dock once, then quits. Nothing is asked of the rope. It holds like "
+    "a hand around a sleeping bird, and does not tighten."
 )
 
 FILENAME = "entry.txt"
